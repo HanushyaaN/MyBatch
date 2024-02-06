@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+	   <parameter name="Driver" value="edge"></parameter>
+	  <groups>
+		  <run>
+			  <include name="smoke"></include>
+	      </run>
+	  </groups>
+    <classes>
+      <class name="Assigne_ShoeTestNg.MetroShoe"/>
+      <class name="TestNgParallelGroupParameterise.Ducati"/>
+      <class name="TestNgParallelGroupParameterise.Bmw"/>
+      <class name="TestNgParallelGroupParameterise.HondaBig"/>
+      <class name="Assigne_ShoeTestNg.CrocsShoe"/>
+      <class name="Assigne_ShoeTestNg.BataShoe"/>
+      <class name="TestNgParallelGroupParameterise.TvsMotor"/>
+      <class name="Assigne_ShoeTestNg.Mochi_Shoe"/>
+      <class name="Assigne_ShoeTestNg.HushPuppies"/>
+      <class name="TestNgParallelGroupParameterise.AvengerBike"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-02T07:40:01 IST" name="Default suite" finished-at="2024-02-02T07:40:14 IST" duration-ms="13028">
+    <groups>
+    </groups>
+    <test started-at="2024-02-02T07:40:01 IST" name="Default test" finished-at="2024-02-02T07:40:14 IST" duration-ms="13028">
+      <class name="POM.ExecuteLoginLinkDwsPage">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:POM.ExecuteLoginLinkDwsPage@694abbdc]" started-at="2024-02-02T07:40:01 IST" name="precondition" finished-at="2024-02-02T07:40:07 IST" duration-ms="5958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:POM.ExecuteLoginLinkDwsPage@694abbdc]" started-at="2024-02-02T07:40:07 IST" name="login" finished-at="2024-02-02T07:40:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="loginLnk()[pri:0, instance:POM.ExecuteLoginLinkDwsPage@694abbdc]" started-at="2024-02-02T07:40:07 IST" name="loginLnk" finished-at="2024-02-02T07:40:14 IST" duration-ms="6362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLnk -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:POM.ExecuteLoginLinkDwsPage@694abbdc]" started-at="2024-02-02T07:40:14 IST" name="postCondition" finished-at="2024-02-02T07:40:14 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:POM.ExecuteLoginLinkDwsPage@694abbdc]" started-at="2024-02-02T07:40:14 IST" name="logOut" finished-at="2024-02-02T07:40:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- POM.ExecuteLoginLinkDwsPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
